@@ -41,8 +41,27 @@ DEBUG
     border: 3px solid green;
 }
 
+.debug .tv{
+    border: 2px solid yellow;
+}
+
 /*SECTION CONTAINER*/
+.section{
+    padding: 80px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
+    margin: 0 -3px;
 }
+
+.col{
+    display:flex
+}
+
+.tv{
+    flex-basis: calc(100% / 7);
+    padding: 0 3px;
+}
+
