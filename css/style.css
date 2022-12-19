@@ -54,6 +54,8 @@ DEBUG
     display: flex;
     flex-direction: column;
     margin: 0 -3px;
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
 .col{
@@ -63,5 +65,22 @@ DEBUG
 .tv{
     flex-basis: calc(100% / 7);
     padding: 0 3px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background-color: rgba(80, 80, 80, 0.6);
+    font-size: calc(10px + 1vh);
+    padding: 0 4px;
+    line-height: 1.5em;
+}
+
+.name::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: '\f131';
 }
 
